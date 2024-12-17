@@ -1,7 +1,7 @@
 /* start global variables */
 
 :root {
-    --main-color: #19c8fa;
+	--main-color: #19c8fa;
 	--transparent-color: rgb(15 116 143 / 70%);
 }
 
@@ -10,31 +10,31 @@
 /* set global rules */
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
-    background-color: black;
+	font-family: "Open Sans", sans-serif;
+	background-color: black;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-top: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-top: auto;
 }
 
 /* ---------- media queries ---------- */
@@ -64,104 +64,104 @@ ul {
 /* start header */
 
 header {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    z-index: 2;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 2;
 }
 
 header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    min-height: 97px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	min-height: 97px;
 }
 
 header .container::after {
-    content:"";
-    position: absolute;
-    height: 1px;
-    background-color: #a2a2a2;
-    bottom: -1px;
-    width: calc(100% - 30px);
-    left: 15px;
+	content:"";
+	position: absolute;
+	height: 1px;
+	background-color: #a2a2a2;
+	bottom: -1px;
+	width: calc(100% - 30px);
+	left: 15px;
 }
 
 header img {
-    height: 40px;
+	height: 40px;
 }
 
 header nav {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 header nav .toggle-menu {
-    color: white;
-    font-size: 22px;
+	color: white;
+	font-size: 22px;
 }
 
 @media (min-width: 768px) {
-    header nav .toggle-menu {
-        display: none;
-    }
+	header nav .toggle-menu {
+		display: none;
+	}
 }
 
 header nav ul {
-    display: flex;
+	display: flex;
 }
 
 @media (max-width: 767px) {
-    header nav ul {
-        display: none;
-    }
-    header nav .toggle-menu:hover + ul {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-    header nav ul li a {
-        padding: 15px !important;
-    }
+	header nav ul {
+		display: none;
+	}
+		header nav .toggle-menu:hover + ul {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+		header nav ul li a {
+		padding: 15px !important;
+	}
 }
 
 header nav ul li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 40px 10px;
-    transition: 0.3s;
-    font-size:  14px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 40px 10px;
+	transition: 0.3s;
+	font-size:  14px;
 }
 
 header nav ul li a.active,
 header nav ul li a:hover {
-    color : var(--main-color);
-    border-bottom: 1px solid var(--main-color);
+	color : var(--main-color);
+	border-bottom: 1px solid var(--main-color);
 }
 
 header .form {
-    width: 40px;
-    height: 30px;
-    border-left: 1px solid white;
-    position: relative;
-    margin-left: 30px;
+	width: 40px;
+	height: 30px;
+	border-left: 1px solid white;
+	position: relative;
+	margin-left: 30px;
 }
 
 header .form i {
-    color: white;
-    position: absolute;
-    top: 50%;
-    font-size: 20px;
-    transform: translateY(-50%);
-    right: 0;
+	color: white;
+	position: absolute;
+	top: 50%;
+	font-size: 20px;
+	transform: translateY(-50%);
+	right: 0;
 }
 /* end  header*/
 
