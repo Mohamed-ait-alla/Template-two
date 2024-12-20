@@ -63,10 +63,6 @@ ul {
 
 /* start component  */
 
-.section {
-	padding : 40px;
-}
-
 .main-heading {
 	text-align: center;
 }
@@ -81,33 +77,33 @@ ul {
 
 .main-heading h2::before {
 	content: '';
-    position: absolute;
-    height: 2px;
-    width: 130px;
-    background-color: #333;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -30px;
+	position: absolute;
+	height: 2px;
+	width: 130px;
+	background-color: #333;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -30px;
 
 }
 
 .main-heading h2::after {
 	content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 14px;
-    width: 14px;
-    border-radius: 50%;
-    border: 2px solid #333;
-    bottom: -38px;
-    background-color: white;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	border: 2px solid #333;
+	bottom: -38px;
+	background-color: white;
 }
 
 .main-heading p {
 	width: 550px;
 	margin: 0 auto 100px;
-	max-widht: 100%;
+	max-width: 100%;
 	line-height: 2;
 	color: #777;
 }
