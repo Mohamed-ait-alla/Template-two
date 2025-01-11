@@ -954,6 +954,12 @@ header nav .form i {
 	border: 1px solid var(--main-color);
 	width: fit-content;
 	margin: 30px auto;
+	color: var(--main-color);
+}
+
+.pricing .boxes .box .foot a:hover {
+	background-color:  #ccefff;
+	color: #0d87b2;
 }
 
 .pricing .contact-us {
@@ -971,6 +977,10 @@ header nav .form i {
 	color: white;
 	text-decoration: none;
 	border-radius: 3px;
+}
+
+.pricing .contact-link:hover {
+	background-color:  #17a7d4;
 }
 /* end pricing section style */
 
