@@ -589,6 +589,10 @@ header nav .form i {
 	padding: 10px 20px;
 	border: none;
 }
+
+.video button:hover {
+	background-color: #333333;
+}
 /* end video section style */
 
 /* start about section style */
