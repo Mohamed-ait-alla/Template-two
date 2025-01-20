@@ -23,4 +23,4 @@ This project is a fully responsive web template built using only HTML and CSS. I
 - Optimize for performance by implementing lazy loading for images.
 
 ## demo
-You can view the template live here](https://mohamed-ait-alla.github.io/Simple-Web-Design/).
+You can view the template live [here](https://mohamed-ait-alla.github.io/Template-two/).
