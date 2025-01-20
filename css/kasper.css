@@ -114,12 +114,10 @@ ul {
 /* start header */
 
 header {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	width: 100%;
-	z-index: 200;
-	background-color: #2b2b2b;
-
+	z-index: 2;
 }
 
 header .container {
@@ -195,6 +193,7 @@ header nav ul li a {
 	z-index: 2;
 }
 
+header nav ul li .active,
 header nav ul li a:hover {
 	color : var(--main-color);
 	border-bottom: 1px solid var(--main-color);
@@ -1183,7 +1182,7 @@ header nav .form i {
 .footer {
 	padding-top: calc(var(--section-padding) / 2);
 	padding-bottom: calc(var(--section-padding) / 2);
-	background-image: url("/images/subscribe.jpg");
+	background-image: url("../images/subscribe.jpg");
 	background-size: cover;
 	position: relative;
 	color: white;
